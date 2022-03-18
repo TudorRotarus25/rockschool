@@ -1,0 +1,48 @@
+.root {
+  background-image: url("/6.stage-side.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.innerContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.pricesContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .priceItem {
+    text-align: center;
+    padding: 1.5rem 1rem;
+
+    .priceItemText {
+      h4 {
+        margin: 10px 0 0;
+        font-weight: bold;
+      }
+
+      h5 {
+        margin: 0;
+      }
+
+      p {
+        margin: 5px 0;
+        font-size: 0.8rem;
+      }
+
+      .price {
+        font-size: 1.1rem;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+.highlightTitle {
+  color: #C2B316;
+}

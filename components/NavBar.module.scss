@@ -1,0 +1,28 @@
+.root {
+  text-align: center;
+  padding: 1.5rem 2rem;
+
+  @media only screen and (min-width: 600px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.navMenu {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media only screen and (min-width: 600px) {
+    display: flex;
+  }
+
+  li {
+    a {
+      color: #C2B316;
+      padding: 15px;
+    }
+  }
+}
