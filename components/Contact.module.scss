@@ -1,4 +1,9 @@
 .root {
+  background-image: url("/6.stage-side.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mapContainer {
@@ -17,3 +22,8 @@
   margin: 0 auto;
   padding: 3rem 1.5rem;
 }
+
+.highlightTitle {
+  color: #BEBE22;
+}
+

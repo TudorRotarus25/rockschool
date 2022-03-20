@@ -10,7 +10,7 @@ const Prices = () => {
   return (
     <div className={styles.root}>
       <div className={styles.innerContainer}>
-        <h3>Preţuri valabile începând din 1 Octombrie 2019</h3>
+        <h3 className={styles.highlightTitle}>Preţuri valabile începând din 1 Octombrie 2019</h3>
         <p>
           O singură lecţie demonstrativă: <strong>80 RON / 60 min</strong>. Oferim preţuri reduse
           prin
