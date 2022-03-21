@@ -13,7 +13,7 @@ COPY package.json package-lock.json ./
 # Rebuild the source code only when needed
 FROM node:16-alpine AS builder
 WORKDIR /app
-COPY --from=deps /app/node_modules ./node_modules
+#COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 # Next.js collects completely anonymous telemetry data about general usage.
@@ -23,6 +23,8 @@ COPY . .
 
 #RUN yarn build
 # If using npm comment out above and use below instead
+RUN npm i -g npm@8.5.5
+RUN npm i @next/swc-linux-x64-gnu
 RUN npm run build
 
 # Production image, copy all the files and run next
