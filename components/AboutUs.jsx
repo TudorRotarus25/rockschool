@@ -25,8 +25,8 @@ const AboutUs = () => (
       </p>
     </div>
     <div className={styles.imageContainer}>
-      <img className={styles.image} src="/2.closeup-piano.jpg" />
-      <img className={styles.image} src="/3.closeup-guitar.jpg" />
+      <img className={styles.image} alt="La pian" src="/2.closeup-piano.jpg" />
+      <img className={styles.image} alt="La chitară" src="/3.closeup-guitar.jpg" />
     </div>
   </div>
 )

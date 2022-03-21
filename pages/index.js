@@ -6,6 +6,10 @@ import FAQ from "../components/FAQ";
 import Prices from "../components/Prices";
 import Contact from "../components/Contact";
 
+// import sharp from 'sharp'
+// sharp.concurrency();
+// sharp.concurrency(0);
+
 export default function Home() {
   return (
     <div>

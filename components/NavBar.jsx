@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <div className={styles.root}>
       <div>
-        <Image src="/RS-logo.png" width={logoWidth} height={logoHeight}/>
+        <Image alt="RockSchool.RO" src="/RS-logo.png" width={logoWidth} height={logoHeight}/>
       </div>
       <ul className={styles.navMenu}>
         <li><a href="#scoala">Şcoala</a></li>
