@@ -2,11 +2,10 @@
 
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    loader: 'imgix',
+    path: 'https://rockschool-ro.imgix.net',
+  },
 }
 
-module.exports = {
-  experimental: {
-    outputStandalone: true,
-  },
-  nextConfig
-}
+module.exports = nextConfig
