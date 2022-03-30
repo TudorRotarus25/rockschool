@@ -1,0 +1,48 @@
+.root {
+  background-image: url("/5.yellow-spots.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.tab {
+  margin-top: -100px;
+}
+.tablinks:hover {
+  background: transparent;
+  border: hidden;
+}
+#fontadj2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFEE;
+}
+.tablinks {
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.tab button {
+  height: 40px;
+  width: 80px;
+  background-color: rgba(104, 102, 102, 0.2);
+  border-radius: 15px 15px 0px 0px;
+  color: #BEBE22;
+  font-size: 17px;
+}
+h2 {
+  color: #BEBE22;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+.tabcontent {
+  display: none;
+  border-top: none;
+}

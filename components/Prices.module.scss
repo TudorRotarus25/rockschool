@@ -1,8 +1,9 @@
 .root {
-  background-image: url("/6.stage-side.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("/7.empty-stage.jpg");
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .innerContainer {
@@ -44,5 +45,5 @@
 }
 
 .highlightTitle {
-  color: #C2B316;
+  color: #BEBE22;
 }

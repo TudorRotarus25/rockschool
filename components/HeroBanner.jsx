@@ -16,15 +16,13 @@ const HeroBanner = () => (
       </h2>
     </div>
     <div className={styles.bottomContainer}>
-      <h3 className={styles.title}>
-        La timpuri virulente...
+      <h3 className={styles.content}>La timpuri virulente...
       </h3>
       <p className={styles.content}>
         Dragi viitoare rockstar-uri, în această perioadă facem lecţii atât online, cât şi la şcoală,
         după preferinţele fiecarui elev. Dacă doriţi să vă înscrieţi şi ezitaţi din diverse motive,
         vă invitam să ne vizitaţi marţi sau miercuri între 17.30 - 21.30, precum şi sambătă între
-        10.30 şi 12.30. Nu este nevoie de vreo programare, dar vă rugăm să ne contactaţi.
-      </p>
+        10.30 şi 12.30. Nu este nevoie de vreo programare, dar vă rugăm să ne contactaţi.</p>
     </div>
   </div>
 );

@@ -1,9 +1,14 @@
 import Head from 'next/head'
 
 import HeroBanner from "../components/HeroBanner";
-import Contact from "../components/Contact";
 import AboutUs from "../components/AboutUs";
+import FAQ from "../components/FAQ";
 import Prices from "../components/Prices";
+import Contact from "../components/Contact";
+
+// import sharp from 'sharp'
+// sharp.concurrency();
+// sharp.concurrency(0);
 
 export default function Home() {
   return (
@@ -17,6 +22,7 @@ export default function Home() {
       <main>
         <HeroBanner />
         <AboutUs />
+        <FAQ />
         <Prices />
         <Contact />
       </main>
