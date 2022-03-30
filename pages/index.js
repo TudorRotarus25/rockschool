@@ -5,6 +5,7 @@ import AboutUs from "../components/AboutUs";
 import FAQ from "../components/FAQ";
 import Prices from "../components/Prices";
 import Contact from "../components/Contact";
+import Profesori from "../components/Profesori";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <HeroBanner />
         <AboutUs />
         <FAQ />
+        <Profesori />
         <Prices />
         <Contact />
       </main>
