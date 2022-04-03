@@ -1,6 +1,6 @@
 .root {
-  background-image: url("/6.stage-side.jpg");
-  background-attachment: fixed;
+  background-image: url("https://rockschool-ro.imgix.net/6.stage-side.jpg");
+  //background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,5 +25,9 @@
 
 .highlightTitle {
   color: #BEBE22;
+}
+
+.link {
+  cursor: pointer;
 }
 

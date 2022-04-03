@@ -25,8 +25,8 @@ const AboutUs = () => (
       </p>
     </div>
     <div className={styles.imageContainer}>
-      <img className={styles.image} alt="La pian" src="/2.closeup-piano.jpg" />
-      <img className={styles.image} alt="La chitară" src="/3.closeup-guitar.jpg" />
+      <img className={styles.image} alt="La pian" src="https://rockschool-ro.imgix.net/2.closeup-piano.jpg" />
+      <img className={styles.image} alt="La chitară" src="https://rockschool-ro.imgix.net/3.closeup-guitar.jpg" />
     </div>
   </div>
 )

@@ -3,7 +3,7 @@
   width: 100%;
   height: 100vh;
   background-image: url("https://rockschool-ro.imgix.net/1.we-salute-you.jpg");
-  background-attachment: fixed;
+  //background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,7 +16,7 @@
   position: absolute;
   text-align: center;
   width: 100%;
-  top: 20%;
+  top: 50%;
   transform: translateY(-50%);
   color: #fff;
 }

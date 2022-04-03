@@ -8,6 +8,8 @@ const Contact = () => {
   const addressImageWidth = 1200 * 0.6;
   const addressImageHeight = 906 * 0.6;
 
+  const now = new Date();
+
   return (
     <div className={styles.root}>
       <div className={styles.infoContainer} id="contact">
@@ -31,16 +33,16 @@ const Contact = () => {
         </div>
       </div>
       <div className={styles.mapContainer} id="adresa">
-        <Link href="https://goo.gl/maps/ESrwVfy9xsPMoXmc7" passHref>
-        <h3 className={styles.highlightTitle}>Strada Vasile Lascar, nr. 183, Bucuresti</h3>
-        </Link>
-        <Link href="https://goo.gl/maps/ESrwVfy9xsPMoXmc7" passHref>
+        <a className={styles.link} href="https://goo.gl/maps/ESrwVfy9xsPMoXmc7" target="_blank" rel="noreferrer">
+          <h3 className={styles.highlightTitle}>Strada Vasile Lascar, nr. 183, Bucuresti</h3>
+        </a>
+        <a className={styles.link} href="https://goo.gl/maps/ESrwVfy9xsPMoXmc7" target="_blank" rel="noreferrer">
           <Image src="/8.Vasile-Lascar-183.jpg" alt="Vasile Lascar, nr. 183"
                  width={addressImageWidth} height={addressImageHeight} />
-        </Link>
+        </a>
       </div>
       <div className={styles.mapContainer} id="copyright">
-        <p>RockSchool.RO © 2022</p>
+        <p>RockSchool.RO © {now.getFullYear()}</p>
       </div>
     </div>
   );

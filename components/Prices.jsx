@@ -8,7 +8,7 @@ const Prices = () => {
   const imagesHeight = 64 * 0.8;
 
   return (
-    <div className={styles.root}>
+    <div className={styles.root} id="preturi">
       <div className={styles.innerContainer}>
         <h3 className={styles.highlightTitle}>Preţuri valabile începând din 1 Octombrie 2019</h3>
         <p>

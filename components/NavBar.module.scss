@@ -7,6 +7,10 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  &.withBackground {
+    background-color: #000;
+  }
 }
 
 .navMenu {
@@ -15,7 +19,7 @@
   margin: 0;
   padding: 0;
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 800px) {
     display: flex;
   }
 
@@ -25,4 +29,8 @@
       padding: 15px;
     }
   }
+}
+
+.logoContainer {
+  cursor: pointer;
 }
