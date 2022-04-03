@@ -122,8 +122,10 @@ const EventsContainer = () => {
   const [selectedEvent, setSelectedEvent] = useState(0);
 
   const onEventChange = (eventIndex) => {
-    setSelectedEvent(eventIndex);
-    window.scrollTo(0, 0);
+    if (eventIndex !== selectedEvent) {
+      setSelectedEvent(eventIndex);
+      window.scrollTo(0, 0);
+    }
   };
 
   return (
