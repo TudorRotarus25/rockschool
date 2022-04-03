@@ -7,8 +7,8 @@ const EventsCarousel = ({ events, onEventChange }) => {
   const settings = {
     dots: true,
     infinite: true,
-    arrows: false,
-    speed: 500,
+    arrows: true,
+    swipe: false,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
@@ -22,6 +22,7 @@ const EventsCarousel = ({ events, onEventChange }) => {
         breakpoint: 500,
         settings: {
           slidesToShow: 1,
+          arrows: false,
         }
       },
     ]
@@ -36,12 +37,14 @@ const EventsCarousel = ({ events, onEventChange }) => {
         <Slider {...settings}>
           {events.map((event, eventIndex) => (
             <div key={event.title}>
-              <div className={styles.carouselItem} onClick={() => onEventChange(eventIndex)}>
-                <img className={styles.carouselImage} src={event.heroBanner} alt={event.title} />
-                <div>
-                  <h3 className={styles.carouselTitle}>{event.title}</h3>
+              <a onClick={() => onEventChange(eventIndex)}>
+                <div className={styles.carouselItem}>
+                  <img className={styles.carouselImage} src={event.heroBanner} alt={event.title} />
+                  <div>
+                    <h3 className={styles.carouselTitle}>{event.title}</h3>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           ))}
         </Slider>
