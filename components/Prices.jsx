@@ -8,7 +8,7 @@ const Prices = () => {
   const imagesHeight = 64 * 0.8;
 
   return (
-    <div className={styles.root}>
+    <div className={styles.root} id="preturi">
       <div className={styles.innerContainer}>
         <h3 className={styles.highlightTitle}>Preţuri valabile începând din 1 Octombrie 2019</h3>
         <p>
@@ -18,7 +18,7 @@ const Prices = () => {
         </p>
         <div className={styles.pricesContainer}>
           <div className={styles.priceItem}>
-            <Image alt="RockSchool.RO" src="/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
+            <img alt="RockSchool.RO" src="https://rockschool-ro.imgix.net/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
             <div className={styles.priceItemText}>
               <h4>Basic</h4>
               <h5>4 ședinṭe (ore)</h5>
@@ -29,7 +29,7 @@ const Prices = () => {
             </div>
           </div>
           <div className={styles.priceItem}>
-            <Image alt="RockSchool.RO" src="/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
+            <img alt="RockSchool.RO" src="https://rockschool-ro.imgix.net/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
             <div className={styles.priceItemText}>
               <h4>Acid</h4>
               <h5>8 ședinṭe (ore)</h5>
@@ -40,7 +40,7 @@ const Prices = () => {
             </div>
           </div>
           <div className={styles.priceItem}>
-            <Image alt="RockSchool.RO" src="/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
+            <img alt="RockSchool.RO" src="https://rockschool-ro.imgix.net/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
             <div className={styles.priceItemText}>
               <h4>Benzen</h4>
               <h5>12 ședinṭe (ore)</h5>
@@ -68,7 +68,7 @@ const Prices = () => {
         <p>In vacanţa de vară oferim preţuri speciale prin 3 pachete de şedinţe săptămânale:</p>
         <div className={styles.pricesContainer}>
           <div className={styles.priceItem}>
-            <Image alt="RockSchool.RO" src="/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
+            <img alt="RockSchool.RO" src="https://rockschool-ro.imgix.net/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
             <div className={styles.priceItemText}>
               <h4>Alternativ</h4>
               <h5>3 lecţii (ore)</h5>
@@ -78,7 +78,7 @@ const Prices = () => {
             </div>
           </div>
           <div className={styles.priceItem}>
-            <Image alt="RockSchool.RO" src="/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
+            <img alt="RockSchool.RO" src="https://rockschool-ro.imgix.net/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
             <div className={styles.priceItemText}>
               <h4>Quasi-Daily</h4>
               <h5>4 lecţii (ore)</h5>
@@ -88,7 +88,7 @@ const Prices = () => {
             </div>
           </div>
           <div className={styles.priceItem}>
-            <Image alt="RockSchool.RO" src="/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
+            <img alt="RockSchool.RO" src="https://rockschool-ro.imgix.net/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
             <div className={styles.priceItemText}>
               <h4>Daily</h4>
               <h5>5 lecţii (ore)</h5>

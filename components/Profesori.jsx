@@ -126,7 +126,7 @@ const Profesori = () => {
   }
 
   return (
-    <div className={styles.root}>
+    <div className={styles.root} id="profesori">
       <div className={styles.rootInner}>
         <h3>
           Profesorii
@@ -150,12 +150,12 @@ const Profesori = () => {
         </div>
         <div>
           {teachersTabs[selectedTab].items.map((item) => (
-            <>
-              <h4 key={item.title}>
+            <div key={item.title}>
+              <h4>
                 {item.title}
               </h4>
               {item.description}
-            </>
+            </div>
           ))}
         </div>
       </div>
