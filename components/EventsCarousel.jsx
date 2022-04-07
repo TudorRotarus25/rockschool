@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from 'react-slick'
+import Image from 'next/image'
 
 import styles from './EventsCarousel.module.scss'
 
@@ -30,9 +31,7 @@ const EventsCarousel = ({ events, onEventChange }) => {
 
   return (
     <div className={styles.root}>
-      <h2>
-        Toate evenimentele
-      </h2>
+      <h3 className={styles.highlightTitle}>Istoria evenimentelor: </h3>
       <div className={styles.carouselContainer}>
         <Slider {...settings}>
           {events.map((event, eventIndex) => (

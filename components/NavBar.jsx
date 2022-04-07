@@ -14,7 +14,10 @@ const NavBar = ({ addBackground = false }) => {
     <div className={clsx(styles.root, { [styles.withBackground]: addBackground })}>
       <div className={styles.logoContainer}>
         <Link href="/">
-          <Image alt="RockSchool.RO" src="/RS-logo.png" width={logoWidth} height={logoHeight}/>
+          <img alt="RockSchool.RO"
+               src="https://rockschool-ro.imgix.net/RS-logo.png"
+               width={logoWidth}
+               height={logoHeight}/>
         </Link>
       </div>
       <ul className={styles.navMenu}>
