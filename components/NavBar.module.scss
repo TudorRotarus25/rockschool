@@ -1,12 +1,8 @@
 .root {
-  text-align: center;
   padding: 1.5rem 2rem;
-
-  @media only screen and (min-width: 600px) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   &.withBackground {
     background-color: #000;
@@ -33,4 +29,13 @@
 
 .logoContainer {
   cursor: pointer;
+
+  .logo {
+    display: block;
+    height: 35px;
+
+    @media screen and (min-width: 800px) {
+      height: 45px;
+    }
+  }
 }

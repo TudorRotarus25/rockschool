@@ -13,8 +13,8 @@ const events = [
         <p> Dragi rockeri,</p>
         <p>
           Duminică, 17 aprilie, cântăm pentru viață și libertate!
-        <p>
         </p>
+        <p>
           Atacăm cu armele sonice din dotare: chitare, tobe, amplificatoare, etc.
           Pe alocuri cu delicatețea pianului și, datorită lui Mardale, cu sensibilitatea glasului uman.
         </p>

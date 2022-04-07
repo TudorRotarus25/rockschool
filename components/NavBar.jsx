@@ -3,21 +3,20 @@ import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
+import MobileMenu from './MobileMenu'
+
 import styles from './NavBar.module.scss'
 
 const NavBar = ({ addBackground = false }) => {
-  const multiplier = 0.45;
-  const logoWidth = 513 * multiplier;
-  const logoHeight = 100 * multiplier;
-
   return (
     <div className={clsx(styles.root, { [styles.withBackground]: addBackground })}>
       <div className={styles.logoContainer}>
         <Link href="/">
-          <img alt="RockSchool.RO"
-               src="https://rockschool-ro.imgix.net/RS-logo.png"
-               width={logoWidth}
-               height={logoHeight}/>
+          <img
+            className={styles.logo}
+            alt="RockSchool.RO"
+            src="https://rockschool-ro.imgix.net/RS-logo.png"
+          />
         </Link>
       </div>
       <ul className={styles.navMenu}>
@@ -27,6 +26,7 @@ const NavBar = ({ addBackground = false }) => {
         <li><Link href="/#contact">Contact</Link></li>
         <li><Link href="/evenimente">Evenimente</Link></li>
       </ul>
+      <MobileMenu />
     </div>
   );
 };

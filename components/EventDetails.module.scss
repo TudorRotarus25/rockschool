@@ -4,7 +4,13 @@
 
 .heroBanner {
   display: block;
-  width: 100%;
+  max-width: 100%;
+  max-height: 60vh;
+  margin: 0 auto;
+
+  @media screen and (min-width: 800px) {
+    margin: 4rem auto;
+  }
 }
 
 .contact {

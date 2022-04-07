@@ -6,6 +6,7 @@ import FAQ from "../components/FAQ";
 import Prices from "../components/Prices";
 import Contact from "../components/Contact";
 import Profesori from "../components/Profesori";
+import ScrollButton from "../components/ScrollButton";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Profesori />
         <Prices />
         <Contact />
+        <ScrollButton />
       </main>
     </div>
   )
