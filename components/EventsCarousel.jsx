@@ -15,7 +15,7 @@ const EventsCarousel = ({ events, onEventChange }) => {
     arrows: true,
     swipe: false,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 600,

@@ -7,7 +7,7 @@ import EventsCarousel from "./EventsCarousel";
 const events = [
   {
     heroBanner: 'https://rockschool-ro.imgix.net/Poster-17Apr2022.jpg',
-    title: 'Rock for Life - Aprilie 17, 2022',
+    title: 'Rock for Life - 17 Aprilie 2022',
     body: (
       <>
         <p> Dragi rockeri,</p>
@@ -32,7 +32,7 @@ const events = [
     ),
     contact: (
       <>
-        <h4>Contact:</h4>
+        <h4>Contact: </h4>
         <ul>
           <li>contact@rockschool.ro</li>
           <li>031.425.93.59 (Sediul RockSchool)</li>
@@ -123,19 +123,19 @@ const events = [
   },
   {
     heroBanner: 'https://rockschool-ro.imgix.net/Poster-Piata-Pipera-Mai-2013.png',
-    title: 'Piata Pipera - Mai 2013',
+    title: 'Piața Pipera - Mai 2013',
   },
   {
     heroBanner: 'https://rockschool-ro.imgix.net/Poster-ClubulTaranulu-12Oct.jpg',
-    title: 'Clubul Taranulu - Oct 2012',
+    title: 'Clubul Ţăranului - Oct 2012',
   },
   {
     heroBanner: 'https://rockschool-ro.imgix.net/Poster-Fabrica-Tshirt.jpg',
     title: 'Fabrica - 17/24 Mai',
   },
   {
-    heroBanner: 'https://rockschool-ro.imgix.net/Poster-Iunie-Iunie-2011.jpg',
-    title: 'Wing Clud - Iunie 2011',
+    heroBanner: 'https://rockschool-ro.imgix.net/Poster-WingClub-Iunie-2011.jpg',
+    title: 'Wing Club - Iunie 2011',
   },
   {
     heroBanner: 'https://rockschool-ro.imgix.net/Poster-CiocanuFaur-Oct-2011.jpg',

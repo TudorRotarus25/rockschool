@@ -18,20 +18,18 @@ const Contact = () => {
           <div>
             Informaţii şi înscrieri:
             <ul>
-              <li>Luni-Vineri <strong>14:30-20:30</strong></li>
-              <li>Sambata <strong>11:30-16:30</strong></li>
+              <li>Luni-Vineri:  <strong>14:30 - 20:30</strong></li>
+              <li>Sambata:  <strong>11:30 - 16:30</strong></li>
             </ul>
             <ul>
-              <li>Sediul RockSchool: <strong>031.425.93.59</strong></li>
-              <li>Secretariat: <strong>0723.43.11.13</strong></li>
-              <li>Administraţie: <strong>0722.97.24.61</strong></li>
+              <li>Sediul RockSchool:  <strong>031.425.93.59</strong></li>
+              <li>Secretariat:  <strong>0723.43.11.13</strong></li>
+              <li>Administraţie:  <strong>0722.97.24.61</strong></li>
             </ul>
           </div>
-          <p>
-            In afara orelor de program poţi trimite email:
-            <Link href="mailto: contact+rs@rockschool.ro" passHref>
-              <strong>contact@rockschool.ro</strong>
-            </Link>
+          <p>In afara orelor de program trimite email:
+            <p><strong><Link href="mailto: contact+rs@rockschool.ro" passHref>
+            contact@rockschool.ro</Link></strong></p>
           </p>
           <h3 className={styles.highlightTitle}>
             We expect you&#8230; Let&#8217;s rock!
