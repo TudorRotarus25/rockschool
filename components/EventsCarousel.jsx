@@ -7,23 +7,28 @@ import styles from './EventsCarousel.module.scss'
 const EventsCarousel = ({ events, onEventChange }) => {
   const settings = {
     dots: true,
+    dotsClass: styles.button__bar,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    cssEase: "linear",
     infinite: true,
     arrows: true,
     swipe: false,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
+          arrows: true,
         }
       },
       {
         breakpoint: 500,
         settings: {
           slidesToShow: 1,
-          arrows: false,
+          arrows: true,
         }
       },
     ]
