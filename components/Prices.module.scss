@@ -20,25 +20,23 @@
   .priceItem {
     text-align: center;
     padding: 1.5rem 1rem;
-
     .priceItemText {
       h4 {
         margin: 10px 0 0;
         font-weight: bold;
       }
-
       h5 {
         margin: 0;
       }
-
       p {
         margin: 5px 0;
         font-size: 0.8rem;
       }
-
       .price {
         font-size: 1.1rem;
         margin-top: 10px;
+        font-weight: 600;
+        color: #BEBE22;
       }
     }
   }

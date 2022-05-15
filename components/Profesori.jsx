@@ -21,15 +21,12 @@ const teachersTabs = [
         )
       },
       {
-        title: 'Alex Gibson',
+        title: 'Vlad Goian',
         description: (
           <p>
-            Are doua pasiuni în viaţa, chitara şi baschetul. Si o rabdare de invidiat. Poli-instrumentist,
-            e bucuria trupelor pe care le îndruma, atunci când lipseşte cineva, Alex îi şi ţine locul, fie ca e vorba de clapa,
-            bas sau tobe. A studiat la conservatorul Gheorghe Dima din Cluj. A cântat în mai multe trupe din Cluj,
-            printre care celebra Semnal M, a fondat trupa Toto tribute Romania şi are cateva compoziţii solo foarte interesante.
-            Il puteţi vedea
-            <a href="https://youtu.be/6IdEJ2eh21c" target="_blank" rel="noreferrer">aici</a>
+            Când îl vezi bland şi rabdator cu copiii n-ai zice ca pe scena se transforma intr-un un djentleman metalist.
+            Membru fondator al <a href="https://youtu.be/pXO2H5TzgFA" target="_blank" rel="noreferrer">System Error</a>,
+            a mai cantat în diverse formule, de gen Lyceum sau N&F.
           </p>
         )
       }
@@ -39,28 +36,27 @@ const teachersTabs = [
     label: 'Tobe',
     items: [
       {
-        title: 'Felix Mircea Moldovan',
+        title: 'Naim Vahidi',
         description: (
           <p>
-            Un copil teribil al percutiei, plin tot timpul de idei şi pasionat de tot ce suna altfel,
-            de la tobe sud-americane la brelocul de la cheile masinii. Il gasim cantand jazz, muzica simfonica,
-            rock, pop, samba, funk, in maniera sa proprie. A cântat în prea multe trupe&#8230; alegem la întamplare VH2,
-            Cats love dogs, SPIN, Talking Drums, Bosquito, Urma, One, Morandi, Slang. Fondator al Project Barbarossa.
-            A studiat la conservatorul Gheorghe Dima din Cluj. Rezistam tentatiei de a vi-l arata in cea mai mare discoteca
-            din Ibiza, şi alegem un
-            <a href="https://youtu.be/D6_YXSU7NxQ" target="_blank" rel="noreferrer">clip mai cuminte</a>
+            Reuşeşte să creeze o relaţie cu cei mai neastampărati copii, care îl iubesc din primul minut.
+            Cel mai complicat ritm, explicat de el pare o joaca. A cântat în liceu în The Purple Dandies, dupa care,
+            în timpul studenţiei la Londra, a colaborat cu mai multe trupe şi acum coace un nou proiect despre
+            care o sa auzim în curând. A studiat la BIMM Institute în Londra. Hai să îl vedem în emisiunea
+            <a href="https://www.youtube.com/watch?v=-f14pEewYNU#t=26m22s" target="_blank" rel="noreferrer">Luaţi un Rock</a>
           </p>
         )
       },
       {
-        title: 'Naim Vahidi',
+        title: 'Alin David',
         description: (
           <p>
-            Reuseste sa creeze o relaţie cu cei mai neastamparati copii, care îl iubesc din primul minut.
-            Cel mai complicat ritm, explicat de el pare o joaca. A cântat în liceu in The Purple Dandies, dupa care,
-            în timpul studenţiei la Londra, a colaborat cu mai multe trupe si acum coace un nou proiect despre care o sa
-            auzim in curând. A studiat la BIMM Londra. Hai sa il vedem in emisiunea
-            <a href="https://www.youtube.com/watch?v=-f14pEewYNU#t=26m22s" target="_blank" rel="noreferrer">Luaţi un Rock</a>
+            Unii cred că s-a născut la RockSchool. In realitate avea deja cativa anisori când a venit prima dată
+            şi s-a inscris la bas. Am trecut impreună prin experienta traumatizanta a bac-ului, după care a trecut
+            la tobe şi a facut o frumoasă carieră muzicală în trupe underground ca Skins from my eyes,
+            Ten times treason, <a href="https://youtu.be/Q_1PgWxhsmg" target="_blank" rel="noreferrer">Tiarra</a> şi altele.
+            Când ni s-a alăturat în calitate de profesor ne-am bucurat foarte mult,
+            fiindca n-a mai trebuit să explicăm care este spiritul RockSchool şi de ce e aşa de important.
           </p>
         )
       }
@@ -73,10 +69,10 @@ const teachersTabs = [
         title: 'Stefan Mardale',
         description: (
           <p>
-            Compozitor, scriitor, poet, vocalist şi, la nevoie, basist si chitarist, fondator al trupei Cri Gri,
-            pasionat de tenis şi critic vehement al oricarei oranduiri sociale. A cântat in Arca, Foileton.
-            Nea Fane de la Rockschool, cu rabdare, tact si imaginaţie, reuseste sa ajunga aproape de sufletul fiecarui elev.
-            Il putem auzi
+            Compozitor, scriitor, poet, vocalist şi, la nevoie, basist şi chitarist, fondator al trupei Cri Gri,
+            pasionat de tenis şi critic vehement al oricărei orânduiri sociale. A cântat în Arca, Foileton.
+            Nea Fane de la RockSchool, cu rabdare, tact şi imaginaţie, reuseste să ajungă aproape de sufletul
+            fiecarui elev. Il putem auzi
             <a href="https://youtu.be/ouEYyKzEYyA" target="_blank" rel="noreferrer">aici</a>
           </p>
         )
@@ -91,8 +87,19 @@ const teachersTabs = [
         description: (
           <p>
             Un suflet sensibil, pianist, vocalist, compozitor, poet şi mare microbist
-            (Tine cu o celebra echipa Bucuresteana al carui nume îmi scapa). Are o rabdare infinita cu copii mici
-            şi gaseste calea spre motivatiile subtile ale fiecarui elev. Timid. (nu poate fi gasit pe YouTube)
+            (Tine cu o celebră echipa Bucuresteană a cărei nume îmi scapă). Are o răbdare infinită cu copii mici
+            şi găseste calea spre motivatiile subtile ale fiecărui elev. Timid. (nu poate fi găsit pe YouTube)
+          </p>
+        )
+      },
+      {
+        title: 'Raluca Strambeanu',
+        description: (
+          <p>
+            Cu o educatie clasică, dar cu un vibe neconventional şi un zâmbet irezistibil,
+            e iubită de la prima vedere de toţi copiii, care nu se pot hotâri dacă invaţă pian
+            <a href="https://youtu.be/Thm-Na7tA-o" target="_blank" rel="noreferrer">de dragul muzicii</a> sau
+            de dragul ei.
           </p>
         )
       }
@@ -105,12 +112,12 @@ const teachersTabs = [
         title: 'Soe',
         description: (
           <p>
-            Ca sa întelegi frumusetea bassului trebuie sa îl vezi şi sa-l auzi pe Soe cum asculta o piesa,
-            identifica nota aceea, apuca bassul şi ajunge la ea printr-un slide. Fondator Holograf, Formula 5, VH2,
-            a cantat în diverse trupe, de la big banduri la cover band-uri, fiind întotdeauna o insula de calm
-            şi echilibru in peisajul agitat al scenelor rock din România. Il putem vedea cu greu in filmari şi pe scena -
-            de obicei se ascunde în spatele celorlalti membri ai trupei. Cu greu am gasit o
-            <a href="https://youtu.be/gKQBsGkQHXA" target="_blank" rel="noreferrer">filmare</a> în care sa il putem identifica.
+            Ca să întelegi frumusetea bass-ului trebuie să-l vezi şi să-l auzi pe Soe cum ascultă o piesa,
+            identifică nota aceea, apuca bass-ul şi ajunge la ea printr-un slide. Fondator Holograf, Formula 5,
+            VH2, a cântat în diverse trupe, de la big band-uri la cover band-uri, fiind întotdeauna o insula
+            de calm şi echilibru în peisajul agitat al scenelor rock din România. Il putem vedea cu greu în
+            filmări şi pe scena - de obicei se ascunde în spatele celorlalti membri ai trupei. Cu greu am găsit o
+            <a href="https://youtu.be/gKQBsGkQHXA" target="_blank" rel="noreferrer">filmare</a> în care să-l putem identifica.
           </p>
         )
       }
@@ -132,7 +139,9 @@ const Profesori = () => {
           Profesorii
         </h3>
         <p>
-          RockSchool, Şcoala de Rock, este o iniţiativă a mai multor oameni de profesii diferite. Unii dintre noi au ales cariera de muzician profesionist, alţii marketing, publicitate sau chiar inginerie, dar pe toţi ne uneşte dragostea pentru muzică în general şi pentru Rock în special.
+          RockSchool, Şcoala de Rock, este o iniţiativă a mai multor oameni de profesii diferite.
+          Unii dintre noi au ales cariera de muzician profesionist, alţii marketing, publicitate sau chiar inginerie,
+          dar pe toţi ne uneşte dragostea pentru muzică în general şi pentru Rock în special.
         </p>
         <div className={styles.tabsContainer}>
           <ul className={styles.tabsList}>

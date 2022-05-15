@@ -24,7 +24,6 @@ const Contact = () => {
             <ul>
               <li>Sediul RockSchool:  <strong>031.425.93.59</strong></li>
               <li>Secretariat:  <strong>0723.43.11.13</strong></li>
-              <li>Administraţie:  <strong>0722.97.24.61</strong></li>
             </ul>
           </div>
           <p>In afara orelor de program trimite email:
