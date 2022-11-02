@@ -51,7 +51,7 @@ const teachersTabs = [
         title: 'Alin David',
         description: (
           <p>
-            Unii cred că s-a născut la RockSchool. In realitate avea deja cativa anisori când a venit prima dată
+            Unii cred că s-a născut la RockSchool. În realitate avea deja cativa anisori când a venit prima dată
             şi s-a inscris la bas. Am trecut impreună prin experienta traumatizanta a bac-ului, după care a trecut
             la tobe şi a facut o frumoasă carieră muzicală în trupe underground ca Skins from my eyes,
             Ten times treason, <a href="https://youtu.be/Q_1PgWxhsmg" target="_blank" rel="noreferrer">Tiarra</a> şi altele.

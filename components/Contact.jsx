@@ -26,7 +26,7 @@ const Contact = () => {
               <li>Secretariat:  <strong>0723.43.11.13</strong></li>
             </ul>
           </div>
-          <p>In afara orelor de program trimite email:
+          <p>În afara orelor de program trimite email:
             <p><strong><Link href="mailto: contact+rs@rockschool.ro" passHref>
             contact@rockschool.ro</Link></strong></p>
           </p>

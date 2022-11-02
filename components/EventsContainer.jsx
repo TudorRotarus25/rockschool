@@ -5,28 +5,32 @@ import EventDetails from "./EventDetails";
 import EventsCarousel from "./EventsCarousel";
 
 const events = [
+  // Poster-November-Grain-13Nov.2022.jpg
   {
-    heroBanner: 'https://rockschool-ro.imgix.net/Poster-17Apr2022.jpg',
-    title: 'Rock for Life - 17 Aprilie 2022',
+    heroBanner: 'https://rockschool-ro.imgix.net/Poster-November-Grain-13Nov.2022.jpg',
+    title: 'November Grain - 13 Noiembrie 2022',
     body: (
       <>
         <p> Dragi rockeri,</p>
         <p>
-          Duminică, 17 aprilie, cântăm pentru viață și libertate!
+          Pe 13 Noiembrie, RockSchool procedează la executarea unui nou haos de sorginte sonică:
+        </p>
+        <h2>November Grain</h2>
+        <p>
+          Debandada se va desfășura la
+          <a href="https://www.facebook.com/thepubuniv" target="_blank" rel="noreferrer" className={styles.highlight}>
+          The Pub Universității</a>, din Bulevardul Regina Elisabeta, nr. 9.
+          Cei mai copți la ani își amintesc de Trocadero, sau mai pe scurt, la Universitate,
+          la coada calului.
         </p>
         <p>
-          Atacăm cu armele sonice din dotare: chitare, tobe, amplificatoare, etc.
-          Pe alocuri cu delicatețea pianului și, datorită lui Mardale, cu sensibilitatea glasului uman.
+          Începem la ora 12:00, iar programul recitalurilor va fi postat în
+          <a href="https://www.facebook.com/events/1274523030010897/" target="_blank" rel="noreferrer" className={styles.highlight}> evenimentul FB</a>.
         </p>
         <p>
-          Ofensiva se va desfășura la <a href="https://www.facebook.com/YellowClub.ro"
-             target="_blank" rel="noreferrer" className={styles.highlight}>Clubul Yellow</a>, din strada Lucreţiu Pătrăşcanu, nr. 1
-        </p>
-        <p>
-          Informații proaspete referitoare la distribuție, program și alte detalii
-          vor fi publicate aici și în pagina de facebook RockSchool Romania.
-          Toată lumea este invitată: artişti, părinţi, bunici, prieteni, neveste,
-          soţi, amanţi, groupies etc.
+          Interpreții concertanţi vor veni la locație cu minim 30 de minute înaintea
+          recitalului înscris în program. De fapt, ştim că indiferent de ora la care cântați,
+          veţi veni cât mai devreme, pentru a vă vedea colegii.
         </p>
       </>
     ),
@@ -40,6 +44,10 @@ const events = [
         </ul>
       </>
     )
+  },
+  {
+    heroBanner: 'https://rockschool-ro.imgix.net/Poster-Rock-for-Life-17Apr2022.jpg',
+    title: 'Rock for Life - 17 Aprilie 2022',
   },
   {
     heroBanner: 'https://rockschool-ro.imgix.net/Poster-BackToLive-Iunie-2021.jpg',

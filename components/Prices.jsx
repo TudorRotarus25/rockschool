@@ -57,7 +57,7 @@ const Prices = () => {
           lecţii efectuate, în consecinţă, trebuiesc plătite. Plata integrală a pachetului se face la prima
           lecţie din pachet. Lectia dureaza 60 de minute.</p>
         <h3 className={styles.highlightTitle}>Sesiuni intensive in vacanţa de vară (incepand cu 12 Iunie)::</h3>
-        <p>In vacanţa de vară oferim preţuri speciale prin 3 pachete:</p>
+        <p>În vacanţa de vară oferim preţuri speciale prin 3 pachete:</p>
         <div className={styles.pricesContainer}>
           <div className={styles.priceItem}>
             <img alt="RockSchool.RO" src="https://rockschool-ro.imgix.net/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
