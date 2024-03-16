@@ -12,7 +12,7 @@ const Prices = () => {
       <div className={styles.innerContainer}>
         <h3 className={styles.highlightTitle}>Preţuri valabile începând din 15 Mai 2022:</h3>
         <p>
-          O singură lecţie: <strong>100 RON / 60 min</strong>.
+          O singură lecţie: <strong>110 RON / 60 min</strong>.
           Oferim preţuri reduse prin 3 pachete de şedinţe săptămânale cu durata de o ora:
         </p>
         <div className={styles.pricesContainer}>
@@ -22,7 +22,7 @@ const Prices = () => {
               <h4>Basic</h4>
               <h5>4 ședinṭe (ore)</h5>
               <p>report: maxim 1</p>
-              <div className={styles.price}>350 RON/lunǎ</div>
+              <div className={styles.price}>400 RON/lunǎ</div>
             </div>
           </div>
           <div className={styles.priceItem}>
@@ -31,7 +31,7 @@ const Prices = () => {
               <h4>Acid</h4>
               <h5>8 ședinṭe (ore)</h5>
               <p>report: maxim 2</p>
-              <div className={styles.price}>600 RON/lunǎ</div>
+              <div className={styles.price}>720 RON/lunǎ</div>
             </div>
           </div>
           <div className={styles.priceItem}>
@@ -40,7 +40,7 @@ const Prices = () => {
               <h4>Benzen</h4>
               <h5>12 ședinṭe (ore)</h5>
               <p>report: maxim 3</p>
-              <div className={styles.price}>750 RON/lunǎ</div>
+              <div className={styles.price}>960 RON/lunǎ</div>
             </div>
           </div>
         </div>
@@ -56,34 +56,6 @@ const Prices = () => {
           Absenţele neanunţate care depăşesc numărul de lecţii ce pot fi reportate, vor fi considerate
           lecţii efectuate, în consecinţă, trebuiesc plătite. Plata integrală a pachetului se face la prima
           lecţie din pachet. Lectia dureaza 60 de minute.</p>
-        <h3 className={styles.highlightTitle}>Sesiuni intensive in vacanţa de vară (incepand cu 12 Iunie)::</h3>
-        <p>În vacanţa de vară oferim preţuri speciale prin 3 pachete:</p>
-        <div className={styles.pricesContainer}>
-          <div className={styles.priceItem}>
-            <img alt="RockSchool.RO" src="https://rockschool-ro.imgix.net/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
-            <div className={styles.priceItemText}>
-              <h4>Alternativ</h4>
-              <h5>3 lecţii (ore)</h5>
-              <div className={styles.price}>190 RON/săpt</div>
-            </div>
-          </div>
-          <div className={styles.priceItem}>
-            <img alt="RockSchool.RO" src="https://rockschool-ro.imgix.net/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
-            <div className={styles.priceItemText}>
-              <h4>Quasi-Daily</h4>
-              <h5>4 lecţii (ore)</h5>
-              <div className={styles.price}>240 RON/săpt</div>
-            </div>
-          </div>
-          <div className={styles.priceItem}>
-            <img alt="RockSchool.RO" src="https://rockschool-ro.imgix.net/RS-teaser.png" width={imagesWidth} height={imagesHeight}/>
-            <div className={styles.priceItemText}>
-              <h4>Daily</h4>
-              <h5>5 lecţii (ore)</h5>
-              <div className={styles.price}>290 RON/săpt</div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

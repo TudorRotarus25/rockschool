@@ -42,7 +42,7 @@ const Contact = () => {
           </h3>
         </a>
         <a className={styles.link} href="https://goo.gl/maps/ESrwVfy9xsPMoXmc7" target="_blank" rel="noreferrer">
-          <Image src="/8.Vasile-Lascar-183.jpg" alt="Vasile Lascar, nr. 183"
+          <img className={styles.image}  alt="Vasile Lascar, nr. 183" src="https://rockschool-ro.imgix.net/9.Vasile-Lascar-183.png"
                  width={addressImageWidth} height={addressImageHeight} />
         </a>
       </div>

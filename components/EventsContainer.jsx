@@ -5,33 +5,29 @@ import EventDetails from "./EventDetails";
 import EventsCarousel from "./EventsCarousel";
 
 const events = [
-  // Poster-November-Grain-13Nov.2022.jpg
+  // Poster-One-Way-Rock-n-Roll.jpg
   {
-    heroBanner: 'https://rockschool-ro.imgix.net/Poster-November-Grain-13Nov.2022.jpg',
-    title: 'November Grain - 13 Noiembrie 2022',
+    heroBanner: 'https://rockportal.ro/images/Poster-One-Way-Rock-n-Roll.jpg',
+    title: 'One Way: Rock`n`Roll - 19 Noiembrie 2023',
     body: (
       <>
-        <p> Dragi rockeri,</p>
+        <p> Rockeri planetari,</p>
         <p>
-          Pe 13 Noiembrie, RockSchool procedează la executarea unui nou haos de sorginte sonică:
-        </p>
-        <h2>November Grain</h2>
-        <p>
-          Debandada se va desfășura la
-          <a href="https://www.facebook.com/thepubuniv" target="_blank" rel="noreferrer" className={styles.highlight}>
-          The Pub Universității</a>, din Bulevardul Regina Elisabeta, nr. 9.
-          Cei mai copți la ani își amintesc de Trocadero, sau mai pe scurt, la Universitate,
-          la coada calului.
+          Ne vedem duminică, 19 noiembrie, la The Pub Universității, din Bulevardul Regina Elisabeta,
+          nr. 9, pentru o nouă urgie sonică, tendențios intitulată serbare școlară.
+          <a href="https://www.facebook.com/thepubuniv" target="_blank" rel="noreferrer" className={styles.highlight}> The Pub Universității</a>, din Bulevardul Regina Elisabeta, nr. 9, à la queue du cheval.
         </p>
         <p>
-          Începem la ora 12:00, iar programul recitalurilor va fi postat în
-          <a href="https://www.facebook.com/events/1274523030010897/" target="_blank" rel="noreferrer" className={styles.highlight}> evenimentul FB</a>.
-        </p>
+          Puterea se dezlănțuie la ora 12:00.</p>
+        <h2 className={styles.highlight}>One Way: Rock`n`Roll</h2>
         <p>
-          Interpreții concertanţi vor veni la locație cu minim 30 de minute înaintea
-          recitalului înscris în program. De fapt, ştim că indiferent de ora la care cântați,
-          veţi veni cât mai devreme, pentru a vă vedea colegii.
-        </p>
+          Asupritorii publicului vor veni la club cu minim 30 de minute înaintea recitalului înscris în program.
+          Să amușinăm, să vedem cum stă treaba și, mai ales, să ne acordăm. De altfel, vă recomandăm să veniți
+          cât mai devreme, să observați supunerea spațiului și de către opresorii colegi.
+          Programul recitalurilor va fi postat în event-ul FB. </p>
+        <h3>
+          Echipa RockSchool
+        </h3>
       </>
     ),
     contact: (
@@ -44,6 +40,14 @@ const events = [
         </ul>
       </>
     )
+  },
+  {
+    heroBanner: 'https://rockschool-ro.imgix.net/Poster-RocksyMusic-28Mai.2023.jpg',
+    title: 'Rocksy Music - 28 Mai 2023',
+  },
+  {
+    heroBanner: 'https://rockschool-ro.imgix.net/Poster-November-Grain-13Nov.2022.jpg',
+    title: 'November Grain - 13 Noiembrie 2022',
   },
   {
     heroBanner: 'https://rockschool-ro.imgix.net/Poster-Rock-for-Life-17Apr2022.jpg',
