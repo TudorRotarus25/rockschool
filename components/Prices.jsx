@@ -10,7 +10,7 @@ const Prices = () => {
   return (
     <div className={styles.root} id="preturi">
       <div className={styles.innerContainer}>
-        <h3 className={styles.highlightTitle}>Preţuri valabile începând din 15 Mai 2022:</h3>
+        <h3 className={styles.highlightTitle}>Preţuri valabile începând din 1 Martie 2024:</h3>
         <p>
           O singură lecţie: <strong>110 RON / 60 min</strong>.
           Oferim preţuri reduse prin 3 pachete de şedinţe săptămânale cu durata de o ora:
@@ -45,7 +45,7 @@ const Prices = () => {
           </div>
         </div>
         <p>Recuperarea lecṭiilor se va putea face, cu condiṭia anunṭǎrii absenṭei cu cel puṭin
-          o zi ȋnainte pâna la ora17.00. Lectia se va plati, dar, in functie de disponibilitatea profesorilor,
+          o zi ȋnainte pâna la ora 17.00. Lectia se va plati, dar, in functie de disponibilitatea profesorilor,
           va putea fi recuperata in interval de o luna, la orice instrument:</p>
         <ul>
           <li>Pachetul &#8220;Basic&#8221; – poate fi recuperatǎ 1 lecṭie</li>
