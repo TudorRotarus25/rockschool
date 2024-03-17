@@ -5,8 +5,8 @@ import Link from 'next/link'
 import styles from './Contact.module.scss'
 
 const Contact = () => {
-  const addressImageWidth = 1200 * 0.6;
-  const addressImageHeight = 906 * 0.6;
+  const addressImageWidth = 1200 * 0.4;
+  const addressImageHeight = 906 * 0.4;
 
   const now = new Date();
 
