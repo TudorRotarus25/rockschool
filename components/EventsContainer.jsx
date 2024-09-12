@@ -5,34 +5,34 @@ import EventDetails from "./EventDetails";
 import EventsCarousel from "./EventsCarousel";
 
 const events = [
+  // Poster-One-Way-Rock-n-Roll.jpg
   {
-    heroBanner: 'https://rockschool-ro.imgix.net/Poster-17Apr2022.jpg',
-    title: 'Rock for Life - Aprilie 17, 2022',
+    heroBanner: 'https://rockportal.ro/images/Poster-One-Way-Rock-n-Roll.jpg',
+    title: 'One Way: Rock`n`Roll - 19 Noiembrie 2023',
     body: (
       <>
-        <p> Dragi rockeri,</p>
+        <p> Rockeri planetari,</p>
         <p>
-          Duminică, 17 aprilie, cântăm pentru viață și libertate!
+          Ne vedem duminică, 19 noiembrie, la The Pub Universității, din Bulevardul Regina Elisabeta,
+          nr. 9, pentru o nouă urgie sonică, tendențios intitulată serbare școlară.
+          <a href="https://www.facebook.com/thepubuniv" target="_blank" rel="noreferrer" className={styles.highlight}> The Pub Universității</a>, din Bulevardul Regina Elisabeta, nr. 9, à la queue du cheval.
         </p>
         <p>
-          Atacăm cu armele sonice din dotare: chitare, tobe, amplificatoare, etc.
-          Pe alocuri cu delicatețea pianului și, datorită lui Mardale, cu sensibilitatea glasului uman.
-        </p>
+          Puterea se dezlănțuie la ora 12:00.</p>
+        <h2 className={styles.highlight}>One Way: Rock`n`Roll</h2>
         <p>
-          Ofensiva se va desfășura la <a href="https://www.facebook.com/YellowClub.ro"
-             target="_blank" rel="noreferrer" className={styles.highlight}>Clubul Yellow</a>, din strada Lucreţiu Pătrăşcanu, nr. 1
-        </p>
-        <p>
-          Informații proaspete referitoare la distribuție, program și alte detalii
-          vor fi publicate aici și în pagina de facebook RockSchool Romania.
-          Toată lumea este invitată: artişti, părinţi, bunici, prieteni, neveste,
-          soţi, amanţi, groupies etc.
-        </p>
+          Asupritorii publicului vor veni la club cu minim 30 de minute înaintea recitalului înscris în program.
+          Să amușinăm, să vedem cum stă treaba și, mai ales, să ne acordăm. De altfel, vă recomandăm să veniți
+          cât mai devreme, să observați supunerea spațiului și de către opresorii colegi.
+          Programul recitalurilor va fi postat în event-ul FB. </p>
+        <h3>
+          Echipa RockSchool
+        </h3>
       </>
     ),
     contact: (
       <>
-        <h4>Contact:</h4>
+        <h4>Contact: </h4>
         <ul>
           <li>contact@rockschool.ro</li>
           <li>031.425.93.59 (Sediul RockSchool)</li>
@@ -40,6 +40,18 @@ const events = [
         </ul>
       </>
     )
+  },
+  {
+    heroBanner: 'https://rockschool-ro.imgix.net/Poster-RocksyMusic-28Mai.2023.jpg',
+    title: 'Rocksy Music - 28 Mai 2023',
+  },
+  {
+    heroBanner: 'https://rockschool-ro.imgix.net/Poster-November-Grain-13Nov.2022.jpg',
+    title: 'November Grain - 13 Noiembrie 2022',
+  },
+  {
+    heroBanner: 'https://rockschool-ro.imgix.net/Poster-Rock-for-Life-17Apr2022.jpg',
+    title: 'Rock for Life - 17 Aprilie 2022',
   },
   {
     heroBanner: 'https://rockschool-ro.imgix.net/Poster-BackToLive-Iunie-2021.jpg',
@@ -123,19 +135,19 @@ const events = [
   },
   {
     heroBanner: 'https://rockschool-ro.imgix.net/Poster-Piata-Pipera-Mai-2013.png',
-    title: 'Piata Pipera - Mai 2013',
+    title: 'Piața Pipera - Mai 2013',
   },
   {
     heroBanner: 'https://rockschool-ro.imgix.net/Poster-ClubulTaranulu-12Oct.jpg',
-    title: 'Clubul Taranulu - Oct 2012',
+    title: 'Clubul Ţăranului - Oct 2012',
   },
   {
     heroBanner: 'https://rockschool-ro.imgix.net/Poster-Fabrica-Tshirt.jpg',
     title: 'Fabrica - 17/24 Mai',
   },
   {
-    heroBanner: 'https://rockschool-ro.imgix.net/Poster-Iunie-Iunie-2011.jpg',
-    title: 'Wing Clud - Iunie 2011',
+    heroBanner: 'https://rockschool-ro.imgix.net/Poster-WingClub-Iunie-2011.jpg',
+    title: 'Wing Club - Iunie 2011',
   },
   {
     heroBanner: 'https://rockschool-ro.imgix.net/Poster-CiocanuFaur-Oct-2011.jpg',

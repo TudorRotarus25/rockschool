@@ -5,14 +5,19 @@ import styles from './FAQ.module.scss'
 const AboutUs = () => (
   <div className={styles.root} id="scoala">
     <div className={styles.textContainer}>
-      <h3>De ce rock?</h3>
+      <h3>Care este durata unei lectii?</h3>
+      <p>Şedinţele durează o oră şi sunt individuale. Teoria şi tehnica vor fi asimilate pe parcurs,
+        într-un mod agreabil, şi ca răspuns la nevoile ce apar pe parcursul învăţării pieselor alese
+        pentru invătare. Pe măsura ce un elev va evolua, va fi invitat sa formeze o trupă, impreună cu
+        alţi elevi de nivelul său (şi pe cât posibil varstă şi afinităţi). Repetiţiile ce vor urma,
+        asistate de profesori, vor fi o revelaţie, procesul naşterii unei piese din ceea ce cânta
+        fiecare, e fascinant.</p>
       <p>
-        Rock-ul nu este numai o categorie muzicală, noi credem că este chiar un stil de viaţă.
-        Pornind de la muzica pe care o asculţi, hainele pe care le îmbraci, modul cum îţi alegi prietenii,
-        ajungând pîna la modul în care abordezi deciziile în viaţă. Apoi sunt valorile Rock –
-        optimism, armonie, deschidere catre nou, disciplină şi spirit de echipă – aplicate în viaţă,
-        de multe ori fac diferenţa dintre succes şi eşec.
-      </p>
+        După care, fiecare band astfel format, va cânta pe scenă, in cadrul serbarilor si concertelor
+        organizate regulat, pe scene adevărate, în faţa familiei, prietenilor, cunoscuţilor. Ideea
+        fundamentală a şcolii este de a învăţa atât un anumit instrument principal, cât şi celelalte
+        instrumente din formaţie, la un nivel poate mai redus, precum şi noţiuni de mixaj, sonorizare,
+        operarea diverselor dispozitive necesare.</p>
       <h3>Cum plătesc şedinţele/lecţiile?</h3>
       <p>
         Plata se face pentru întreg pachetul ales la şfirsitul primei lecţii.
@@ -26,7 +31,7 @@ const AboutUs = () => (
       <h3>Este această şcoală atestată de Ministerul Învăţământului şi Educaţiei
         şi poate oferi diplome sau atestate avizate/aprobate de acest minister?</h3>
       <p>
-        Rockschool este o şcoală independentă ce nu primeşte fonduri şi nu
+        RockSchool este o şcoală independentă ce nu primeşte fonduri şi nu
         funcţionează dupa criteriile Ministerul Învăţământului şi Educaţiei
         şi ca urmare nu oferă diplome şi atestate acreditate de acest minister.
       </p>
@@ -34,8 +39,11 @@ const AboutUs = () => (
       <p>
         Şcoala are şi elevi de vârste foarte fragede, dar este necesară o
         testare individuală de către profesorul de specialitate pentru a oferi
-        recomandări relevante.
-      </p>
+        recomandări relevante.</p>
+      <p>Avem de asemenea şi continuăm să salutăm inscrierea unor noi elevi maturi,
+        care fie îşi urmeaza un vis suprimat de concretul cotidianului, fie îşi insoţesc
+        copiii în frumoasa călătorie a invăţării limbajului muzicii, ce se dovedeste tot
+        mai frecvent a deveni o punte reala şi întotdeauna benefică între generaţii.</p>
     </div>
   </div>
 )
