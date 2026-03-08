@@ -3,8 +3,12 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: 'imgix',
-    path: 'https://rockschool-ro.imgix.net',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'rockschool-ro.imgix.net',
+      },
+    ],
   },
 }
 

@@ -29,7 +29,7 @@ const Contact = () => {
           </div>
           <p>
             In afara orelor de program poţi trimite email:
-            <Link href="mailto: contact+rs@rockschool.ro" passHref>
+            <Link href="mailto: contact+rs@rockschool.ro">
               <strong>contact@rockschool.ro</strong>
             </Link>
           </p>
